@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  background-color: lightpink;
+  border: 2px solid black;
+}
+
+.row {
+  padding: 10px;
+}
+
+button {
+  border-radius: 5%;
+}
+
+.shadow {
+  box-shadow: 4px 4px 10px lightgray;
+  transition: 300ms;
+  background-color: rgb(241, 207, 212);
+  cursor: pointer;
+}
+
+/* Note */
+/* sm-1 - width:100% -> takes the whole space */
+/* med-2 -width:25% -> takes 25 percent of space */
+/* etc */
+
+/* If 'SCREEN' IS LESS THAN EQUAL (<=) 480 */
+@media only screen and (max-width: 480px) {
+  .sm-4 {
+    width: 100%;
+  }
+  .sm-0 {
+    display: none;
+  }
+}
+
+/* IF 'SCREEN' IS GREATER THAN 480 AND LESS THAN 1024 */
+@media only screen and (min-width: 481px) {
+  .med-2 {
+    /* can be 50% */
+    width: 35%; /* this % specific to my laptop */
+  }
+}
+
+/* IF 'SCREEN' IS GREATER OR EQUAL TO 1024 */
+@media only screen and (min-width: 1024px) {
+  .lg-1 {
+    /* can be 25% */
+    width: 24%; /* this % specific to my laptop */
+  }
+  .lg-3 {
+    width: 75%;
+  }
+}
