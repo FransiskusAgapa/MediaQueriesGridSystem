@@ -1,1 +1,1 @@
-This repo is about basic practice with/using @media and practice of understanding Grid System
+This repo is about basic practice building responsive website with/using @Media and practice of understanding Grid System
