@@ -45,7 +45,7 @@ button {
 /* IF 'SCREEN' IS GREATER THAN 480 AND LESS THAN 1024 */
 @media only screen and (min-width: 481px) {
   .med-2 {
-    /* can be 50% */
+    /* if you have bigger 'screen' use  50% */
     width: 35%; /* this % specific to my laptop */
   }
 }
@@ -53,7 +53,7 @@ button {
 /* IF 'SCREEN' IS GREATER OR EQUAL TO 1024 */
 @media only screen and (min-width: 1024px) {
   .lg-1 {
-    /* can be 25% */
+    /* if you have bigger 'screen' use 25% */
     width: 24%; /* this % specific to my laptop */
   }
   .lg-3 {
